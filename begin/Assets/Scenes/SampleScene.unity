@@ -413,6 +413,7 @@ GameObject:
   - component: {fileID: 1289901078}
   - component: {fileID: 1289901077}
   - component: {fileID: 1289901076}
+  - component: {fileID: 1289901081}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -429,9 +430,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1289901075}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbc0b821680859f46ae31ac9fa1baa6f, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a3c7a5b2279dcf41a22b1f1218b25e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  url: http://img1.imgtn.bdimg.com/it/u=2489492398,1961915359&fm=26&gp=0.jpg
 --- !u!65 &1289901077
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -504,3 +506,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1289901081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289901075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7cb757f014a16f4fb2222d982f1c407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
