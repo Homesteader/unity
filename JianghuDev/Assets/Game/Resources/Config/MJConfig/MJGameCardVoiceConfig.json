@@ -1,0 +1,207 @@
+[
+  {
+    "configIndex": 1,
+    "id": 1,
+    "name": "1条",
+    "voice": [ "mjt3_1" ]
+  },
+  {
+    "configIndex": 2,
+    "id": 2,
+    "name": "2条",
+    "voice": [ "mjt3_2" ]
+  },
+  {
+    "configIndex": 3,
+    "id": 3,
+    "name": "3条",
+    "voice": [ "mjt3_3" ]
+  },
+  {
+    "configIndex": 4,
+    "id": 4,
+    "name": "4条",
+    "voice": [ "mjt3_4" ]
+  },
+  {
+    "configIndex": 5,
+    "id": 5,
+    "name": "5条",
+    "voice": [ "mjt3_5" ]
+  },
+  {
+    "configIndex": 6,
+    "id": 6,
+    "name": "6条",
+    "voice": [ "mjt3_6" ]
+  },
+  {
+    "configIndex": 7,
+    "id": 7,
+    "name": "7条",
+    "voice": [ "mjt3_7" ]
+  },
+  {
+    "configIndex": 8,
+    "id": 8,
+    "name": "8条",
+    "voice": [ "mjt3_8" ]
+  },
+  {
+    "configIndex": 9,
+    "id": 9,
+    "name": "9条",
+    "voice": [ "mjt3_9" ]
+  },
+  {
+    "configIndex": 11,
+    "id": 11,
+    "name": "1筒",
+    "voice": [ "mjt2_1" ]
+  },
+  {
+    "configIndex": 12,
+    "id": 12,
+    "name": "2筒",
+    "voice": [ "mjt2_2" ]
+  },
+  {
+    "configIndex": 13,
+    "id": 13,
+    "name": "3筒",
+    "voice": [ "mjt2_3" ]
+  },
+  {
+    "configIndex": 14,
+    "id": 14,
+    "name": "4筒",
+    "voice": [ "mjt2_4" ]
+  },
+  {
+    "configIndex": 15,
+    "id": 15,
+    "name": "5筒",
+    "voice": [ "mjt2_5" ]
+  },
+  {
+    "configIndex": 16,
+    "id": 16,
+    "name": "6筒",
+    "voice": [ "mjt2_6" ]
+  },
+  {
+    "configIndex": 17,
+    "id": 17,
+    "name": "7筒",
+    "voice": [ "mjt2_7" ]
+  },
+  {
+    "configIndex": 18,
+    "id": 18,
+    "name": "8筒",
+    "voice": [ "mjt2_8" ]
+  },
+  {
+    "configIndex": 19,
+    "id": 19,
+    "name": "9筒",
+    "voice": [ "mjt2_9" ]
+  },
+  {
+    "configIndex": 21,
+    "id": 21,
+    "name": "1万",
+    "voice": [ "mjt1_1" ]
+  },
+  {
+    "configIndex": 22,
+    "id": 22,
+    "name": "2万",
+    "voice": [ "mjt1_2" ]
+  },
+  {
+    "configIndex": 23,
+    "id": 23,
+    "name": "3万",
+    "voice": [ "mjt1_3" ]
+  },
+  {
+    "configIndex": 24,
+    "id": 24,
+    "name": "4万",
+    "voice": [ "mjt1_4" ]
+  },
+  {
+    "configIndex": 25,
+    "id": 25,
+    "name": "5万",
+    "voice": [ "mjt1_5" ]
+  },
+  {
+    "configIndex": 26,
+    "id": 26,
+    "name": "6万",
+    "voice": [ "mjt1_6" ]
+  },
+  {
+    "configIndex": 27,
+    "id": 27,
+    "name": "7万",
+    "voice": [ "mjt1_7" ]
+  },
+  {
+    "configIndex": 28,
+    "id": 28,
+    "name": "8万",
+    "voice": [ "mjt1_8" ]
+  },
+  {
+    "configIndex": 29,
+    "id": 29,
+    "name": "9万",
+    "voice": [ "mjt1_9" ]
+  },
+  {
+    "configIndex": 31,
+    "id": 31,
+    "name": "东",
+    "voice": [ "mjt4_1" ]
+  },
+  {
+    "configIndex": 32,
+    "id": 32,
+    "name": "南",
+    "voice": [ "mjt4_2" ]
+  },
+  {
+    "configIndex": 33,
+    "id": 33,
+    "name": "西",
+    "voice": [ "mjt4_3" ]
+  },
+  {
+    "configIndex": 34,
+    "id": 34,
+    "name": "北",
+    "voice": [ "mjt4_4" ]
+  },
+  {
+    "configIndex": 35,
+    "id": 35,
+    "name": "中",
+    "voice": [ "mjt4_5" ]
+  },
+  {
+    "configIndex": 36,
+    "id": 36,
+    "name": "发",
+    "voice": [ "mjt4_6" ]
+  },
+  {
+    "configIndex": 37,
+    "id": 37,
+    "name": "白",
+    "voice": [ "mjt4_7" ]
+  }
+
+]

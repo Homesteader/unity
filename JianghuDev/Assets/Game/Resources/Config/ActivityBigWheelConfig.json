@@ -1,0 +1,17 @@
+﻿[
+  {
+    "id": 1,
+    "name": "gold",
+    "iconUrl": "jinbi_2"
+  },
+  {
+    "id": 2,
+	"name": "huafei",
+    "iconUrl": "huaf2"
+  },
+  {
+    "id": 5,
+    "name": "nowinning",
+    "iconUrl": "TankJoin"
+  }
+]

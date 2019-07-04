@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 1925829079
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 34e97b908a1763da2a2eb80441a91ed6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Game/Resources/Config/GameCreateConfig.json
+- Assets/Game/Resources/Config/TSTGameTxtChatConfig.json
+- Assets/Game/Resources/Config/OtherConfig.json
+- Assets/Game/Resources/Config/NiuNiuGameCreateConfig.json
+- Assets/Game/Resources/Config/ActivityBigWheelConfig.json
+- Assets/Game/Resources/Config/UserAgreement/UserAgreementConfig.json
+- Assets/Game/Resources/Config/MJConfig/MJGameCardVoiceConfig.json
+- Assets/Game/Resources/Config/TenGameCreateConfig.json
+- Assets/Game/Resources/Config/MJConfig/MJGameInsEffectConfig.json
+- Assets/Game/Resources/Config/JinHuaGameCreateConfig.json
+- Assets/Game/Resources/Config/RechargeConfig.json
+- Assets/Game/Resources/Config/GameDetailConfig.json
+- Assets/Game/Resources/Config/GameGoldPatternConfig.json
+- Assets/Game/Resources/Config/MJConfig/MJGameInsVoiceConfig.json
+- Assets/Game/Resources/Config/ServiceConfig.json
+- Assets/Game/Resources/Config/WelfareConfig.json
+- Assets/Game/Resources/Config/HelpConfig.json
+- Assets/Game/Resources/Config/GameErrorCodeConfig.json
+- Assets/Game/Resources/Config/MJConfig/MJGameCreateConfig.json
+- Assets/Game/Resources/Config/JinHuaInsSoundConfig.json
+- Assets/Game/Resources/Config/TSTHuDongFaceConfig.json
+- Assets/Game/Resources/Config/ShareDescConfig.json
+- Assets/Game/Resources/Config/JinhuaCreateConfig.json
+Dependencies: []

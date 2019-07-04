@@ -1,0 +1,41 @@
+﻿[
+	{
+	   "gameid" : 1,
+	   "subConfig" : [			
+			{
+				"gameid":3,
+				"name":"两人麻将",
+				"selected":true
+			},{
+				"gameid":2,
+				"name":"三人两房",
+				"selected":false
+			} 
+		]
+	},
+	{
+		"gameid" : 2,
+		"subConfig" : [
+			 {
+				 "gameid":1,
+				 "name":"炸金花",
+				 "selected":true				
+			 }
+		 ]
+	 },
+	{
+	   "gameid" : 3,
+	   "subConfig" : [
+			{
+				"gameid":1,
+				"name":"明牌抢庄",
+				"selected":true
+			},
+			{
+				"gameid":2,
+				"name":"自由抢庄",
+				"selected":false
+			}
+		]
+	}
+]

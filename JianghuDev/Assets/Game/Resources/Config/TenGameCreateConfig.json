@@ -1,0 +1,116 @@
+[
+  {
+    "conIndex": 4,
+    "gameId": 1,
+    "name": "十点半",
+    "rules": [
+      {
+        "id": 7,
+        "name": "模式",
+        "content": [
+          {
+            "Index": 8,
+            "isSelected": false,
+            "group": 6,
+            "optionType": 1,
+            "name": "俱乐部房",
+            "value": 1
+          },
+          {
+            "Index": 9,
+            "isSelected": true,
+            "group": 6,
+            "optionType": 1,
+            "name": "私有房",
+            "value": 1
+          },
+          {
+            "Index":10 ,
+            "isSelected": false,
+            "group": 6,
+            "optionType": 1,
+            "name": "好友房",
+            "value": 1
+          }
+        ]
+		
+	  },
+      {
+        "id": 1,
+        "name": "模式",
+        "content": [
+          {
+            "Index": 1,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 3,
+            "name": "暗牌抢庄",
+            "value": 1
+          },
+		  {
+            "Index": 2,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 3,
+            "name": "明牌抢庄",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "底注",
+        "content": [
+          {
+            "Index": 4,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 3,
+            "name": "带入",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "抢庄",
+        "content": [
+          {
+            "Index": 5,
+            "isSelected": false,
+            "group": 3,
+            "optionType": 1,
+            "name": "抢2押3",
+            "value": 1,
+            "none": false
+          },
+          {
+            "Index": 6,
+            "isSelected": false,
+            "group": 3,
+            "optionType": 1,
+            "name": "抢3押4",
+            "value": 2,
+            "none": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "特殊牌型",
+        "content": [
+          {
+            "Index": 7,
+            "isSelected": false,
+            "group": 3,
+            "optionType": 1,
+            "name": "癞子",
+            "value": 1,
+            "none": false
+          }
+        ]
+      }
+     
+    ]
+  }
+]

@@ -1,0 +1,209 @@
+{
+  "data": [
+    {
+      "card": [
+        {
+          "id": 1,
+          "name": "1条",
+          "voice": [ "tiao_1" ]
+        },
+        {
+          "id": 2,
+          "name": "2条",
+          "voice": [ "tiao_2" ]
+        },
+        {
+          "id": 3,
+          "name": "3条",
+          "voice": [ "tiao_3" ]
+        },
+        {
+          "id": 4,
+          "name": "4条",
+          "voice": [ "tiao_4" ]
+        },
+        {
+          "id": 5,
+          "name": "5条",
+          "voice": [ "tiao_5" ]
+        },
+        {
+          "id": 6,
+          "name": "6条",
+          "voice": [ "tiao_6" ]
+        },
+        {
+          "id": 7,
+          "name": "7条",
+          "voice": [ "tiao_7" ]
+        },
+        {
+          "id": 8,
+          "name": "8条",
+          "voice": [ "tiao_8" ]
+        },
+        {
+          "id": 9,
+          "name": "9条",
+          "voice": [ "tiao_9" ]
+        },
+        {
+          "id": 11,
+          "name": "1筒",
+          "voice": [ "tong_1" ]
+        },
+        {
+          "id": 12,
+          "name": "2筒",
+          "voice": [ "tong_2" ]
+        },
+        {
+          "id": 13,
+          "name": "3筒",
+          "voice": [ "tong_3" ]
+        },
+        {
+          "id": 14,
+          "name": "4筒",
+          "voice": [ "tong_4" ]
+        },
+        {
+          "id": 15,
+          "name": "5筒",
+          "voice": [ "tong_5" ]
+        },
+        {
+          "id": 16,
+          "name": "6筒",
+          "voice": [ "tong_6" ]
+        },
+        {
+          "id": 17,
+          "name": "7筒",
+          "voice": [ "tong_7" ]
+        },
+        {
+          "id": 18,
+          "name": "8筒",
+          "voice": [ "tong_8" ]
+        },
+        {
+          "id": 19,
+          "name": "9筒",
+          "voice": [ "tong_9" ]
+        },
+        {
+          "id": 21,
+          "name": "1万",
+          "voice": [ "wan_1" ]
+        },
+        {
+          "id": 22,
+          "name": "2万",
+          "voice": [ "wan_2" ]
+        },
+        {
+          "id": 23,
+          "name": "3万",
+          "voice": [ "wan_3" ]
+        },
+        {
+          "id": 24,
+          "name": "4万",
+          "voice": [ "wan_4" ]
+        },
+        {
+          "id": 25,
+          "name": "5万",
+          "voice": [ "wan_5" ]
+        },
+        {
+          "id": 26,
+          "name": "6万",
+          "voice": [ "wan_6" ]
+        },
+        {
+          "id": 27,
+          "name": "7万",
+          "voice": [ "wan_7" ]
+        },
+        {
+          "id": 28,
+          "name": "8万",
+          "voice": [ "wan_8" ]
+        },
+        {
+          "id": 29,
+          "name": "9万",
+          "voice": [ "wan_9" ]
+        },
+        {
+          "id": 31,
+          "name": "东",
+          "voice": [ "dong", "dongfeng" ]
+        },
+        {
+          "id": 32,
+          "name": "南",
+          "voice": [ "nan", "nanfeng" ]
+        },
+        {
+          "id": 33,
+          "name": "西",
+          "voice": [ "xi", "xifeng" ]
+        },
+        {
+          "id": 34,
+          "name": "北",
+          "voice": [ "bei", "beifeng" ]
+        },
+        {
+          "id": 41,
+          "name": "中",
+          "voice": [ "zhong", "hongzhong" ]
+        },
+        {
+          "id": 42,
+          "name": "发",
+          "voice": [ "fa", "facai" ]
+        },
+        {
+          "id": 43,
+          "name": "白",
+          "voice": [ "bai", "baiban" ]
+        }
+
+      ],
+      "ins": [
+        {
+          "id": 1,
+          "name": "胡",
+          "voice": [ "hu" ],
+          "insTypeVoice": [ "hu", "zimo" ]
+        },
+        {
+          "id": 3,
+          "name": "杠",
+          "voice": [ "gang", "gangyige" ],
+          "insTypeVoice": [ "gang", "qianggang", "xuanfenggang" ]
+        },
+        {
+          "id": 4,
+          "name": "亮",
+          "voice": [ "xuanfenggang"]
+        },
+        {
+          "id": 5,
+          "name": "碰",
+          "voice": [ "peng", "wopeng" ]
+        },
+        {
+          "id": 6,
+          "name": "吃",
+          "voice": [ "chi" ]
+        }
+      ]
+
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "configIndex": "1",
+    "id": 1,
+    "name": "玩游戏就是需要激情!",
+    "soundNamewoman": "",
+    "soundNameman": "",
+  },
+  {
+    "configIndex": "2",
+    "id": 2,
+    "name": "请大家安静安静！",
+    "soundNamewoman": "",
+    "soundNameman": "",
+  },
+  {
+    "configIndex": "3",
+    "id": 3,
+    "name": "这把牌真的不错哦!",
+    "soundNamewoman": "",
+    "soundNameman": "",
+  },
+  {
+    "configIndex": "4",
+    "id": 4,
+    "name": "你们的牌没有我好,就乖点!",
+    "soundNamewoman": "",
+    "soundNameman": "",
+  },
+  {
+    "configIndex": "5",
+    "id": 5,
+    "name": "这里信号不好,求信号宝宝一个!",
+    "soundNamewoman": "",
+    "soundNameman": "",
+  },
+  {
+    "configIndex": "6",
+    "id": 6,
+    "name": "这样玩下去,我就是大赢家!",
+    "soundNamewoman": "",
+    "soundNameman": "",
+  }
+]

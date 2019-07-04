@@ -1,0 +1,412 @@
+[
+  {
+    "conIndex": 3,
+    "gameId": 3,
+    "name": "两人麻将",
+    "rules": [
+      {
+        "id": 7,
+        "name": "模式",
+        "content": [
+          {
+            "Index": 20,
+            "isSelected": false,
+            "group": 9,
+            "optionType": 1,
+            "name": "俱乐部房"
+          },
+          {
+            "Index": 21,
+            "isSelected": true,
+            "group": 9,
+            "optionType": 1,
+            "name": "联盟房"
+          },
+          {
+            "Index": 22,
+            "isSelected": false,
+            "group": 9,
+            "optionType": 1,
+            "name": "好友房"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "底分",
+        "content": [
+          {
+            "Index": 1,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 3,
+            "name": "底分",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "带入",
+        "content": [
+          {
+            "Index": 2,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 3,
+            "name": "带入",
+            "value": 30
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "封顶",
+        "content": [
+          {
+            "Index": 3,
+            "isSelected": false,
+            "group": 5,
+            "optionType": 1,
+            "name": "3番封顶"
+          },
+          {
+            "Index": 4,
+            "isSelected": true,
+            "group": 5,
+            "optionType": 1,
+            "name": "4番封顶"
+          },
+          {
+            "Index": 5,
+            "isSelected": false,
+            "group": 5,
+            "optionType": 1,
+            "name": "5番封顶"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "玩法",
+        "content": [
+          {
+            "Index": 6,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 2,
+            "name": "换三张"
+          },
+          {
+            "Index": 7,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 2,
+            "name": "天地胡"
+          },
+          {
+            "Index": 8,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 2,
+            "name": "门清"
+          },
+          {
+            "Index": 9,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 2,
+            "name": "中张"
+          },
+          {
+            "Index": 10,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 2,
+            "name": "幺九"
+          },
+          {
+            "Index": 11,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 2,
+            "name": "将对"
+          },
+          {
+            "Index": 12,
+            "isSelected": true,
+            "group": 0,
+            "optionType": 2,
+            "name": "刮风下雨"
+          },
+          {
+            "Index": 13,
+            "isSelected": true,
+            "group": 0,
+            "optionType": 2,
+            "name": "海底捞月"
+          },
+          {
+            "Index": 14,
+            "isSelected": true,
+            "group": 0,
+            "optionType": 2,
+            "name": "金钩钓"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "自摸",
+        "content": [
+          {
+            "Index": 15,
+            "isSelected": false,
+            "group": 7,
+            "optionType": 1,
+            "name": "自摸加底"
+          },
+          {
+            "Index": 16,
+            "isSelected": true,
+            "group": 7,
+            "optionType": 1,
+            "name": "自摸加番"
+          },
+          {
+            "Index": 17,
+            "isSelected": false,
+            "group": 7,
+            "optionType": 1,
+            "name": "自摸不加"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "杠上花",
+        "content": [
+          {
+            "Index": 18,
+            "isSelected": true,
+            "group": 8,
+            "optionType": 1,
+            "name": "点杠花当自摸"
+          },
+          {
+            "Index": 19,
+            "isSelected": false,
+            "group": 8,
+            "optionType": 1,
+            "name": "点杠花当点炮"
+          }
+        ]
+      }
+    ]
+  },
+   {
+    "conIndex": 2,
+    "gameId": 2,
+    "name": "三人两房",
+    "rules": [
+      {
+        "id": 7,
+        "name": "模式",
+        "content": [
+          {
+            "Index": 20,
+            "isSelected": false,
+            "group": 9,
+            "optionType": 1,
+            "name": "俱乐部房"
+          },
+          {
+            "Index": 21,
+            "isSelected": true,
+            "group": 9,
+            "optionType": 1,
+            "name": "联盟房"
+          },
+          {
+            "Index": 22,
+            "isSelected": false,
+            "group": 9,
+            "optionType": 1,
+            "name": "好友房"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "底分",
+        "content": [
+          {
+            "Index": 1,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 3,
+            "name": "底分",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "带入",
+        "content": [
+          {
+            "Index": 2,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 3,
+            "name": "带入",
+            "value": 30
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "封顶",
+        "content": [
+          {
+            "Index": 3,
+            "isSelected": false,
+            "group": 5,
+            "optionType": 1,
+            "name": "3番封顶"
+          },
+          {
+            "Index": 4,
+            "isSelected": true,
+            "group": 5,
+            "optionType": 1,
+            "name": "4番封顶"
+          },
+          {
+            "Index": 5,
+            "isSelected": false,
+            "group": 5,
+            "optionType": 1,
+            "name": "5番封顶"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "玩法",
+        "content": [
+          {
+            "Index": 6,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 2,
+            "name": "换三张"
+          },
+          {
+            "Index": 7,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 2,
+            "name": "天地胡"
+          },
+          {
+            "Index": 8,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 2,
+            "name": "门清"
+          },
+          {
+            "Index": 9,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 2,
+            "name": "中张"
+          },
+          {
+            "Index": 10,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 2,
+            "name": "幺九"
+          },
+          {
+            "Index": 11,
+            "isSelected": false,
+            "group": 0,
+            "optionType": 2,
+            "name": "将对"
+          },
+          {
+            "Index": 12,
+            "isSelected": true,
+            "group": 0,
+            "optionType": 2,
+            "name": "刮风下雨"
+          },
+          {
+            "Index": 13,
+            "isSelected": true,
+            "group": 0,
+            "optionType": 2,
+            "name": "海底捞月"
+          },
+          {
+            "Index": 14,
+            "isSelected": true,
+            "group": 0,
+            "optionType": 2,
+            "name": "金钩钓"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "自摸",
+        "content": [
+          {
+            "Index": 15,
+            "isSelected": false,
+            "group": 7,
+            "optionType": 1,
+            "name": "自摸加底"
+          },
+          {
+            "Index": 16,
+            "isSelected": true,
+            "group": 7,
+            "optionType": 1,
+            "name": "自摸加番"
+          },
+          {
+            "Index": 17,
+            "isSelected": false,
+            "group": 7,
+            "optionType": 1,
+            "name": "自摸不加"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "杠上花",
+        "content": [
+          {
+            "Index": 18,
+            "isSelected": true,
+            "group": 8,
+            "optionType": 1,
+            "name": "点杠花当自摸"
+          },
+          {
+            "Index": 19,
+            "isSelected": false,
+            "group": 8,
+            "optionType": 1,
+            "name": "点杠花当点炮"
+          }
+        ]
+      }
+    ]
+  }
+]

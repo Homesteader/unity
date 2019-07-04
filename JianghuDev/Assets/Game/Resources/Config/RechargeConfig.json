@@ -1,0 +1,170 @@
+[
+  {
+    "CardConfig": [
+      {
+        "id": 1,
+        "cost": 10,
+        "getNum": 10,
+		"spName":"peach_1",
+        "giving": 0,
+        "desc": "金币x10",
+        "givingDesc": "",
+        "type": 1
+      },
+      {
+        "id": 2,
+        "cost": 20,
+        "getNum": 20,
+		"spName":"peach_2",
+        "giving": 0,
+        "desc": "金币x20",
+        "givingDesc": "",
+        "type": 1
+      },
+      {
+        "id": 3,
+        "cost": 50,
+        "getNum": 50,
+		"spName":"peach_3",
+        "giving": 0,
+        "desc": "金币x50",
+        "givingDesc": "",
+        "type": 1
+      },
+      {
+        "id": 4,
+        "cost": 100,
+        "getNum": 100,
+		"spName":"peach_4",
+        "giving": 0,
+        "desc": "金币x100",
+        "givingDesc": "",
+        "type": 1
+      },
+      {
+        "id": 5,
+        "cost": 200,
+        "getNum": 200,
+		"spName":"peach_5",
+        "giving": 0,
+        "desc": "金币x200",
+        "givingDesc": "",
+        "type": 1
+      },
+      {
+        "id": 6,
+        "cost": 500,
+        "getNum": 500,
+		"spName":"peach_6",
+        "giving": 0,
+        "desc": "金币x500",
+        "givingDesc": "",
+        "type": 1
+      },
+      {
+        "id": 7,
+        "cost": 800,
+        "getNum": 800,
+		"spName":"peach_7",
+        "giving": 0,
+        "desc": "金币x800",
+        "givingDesc": "",
+        "type": 1
+      },
+      {
+        "id": 8,
+        "cost":1000 ,
+        "getNum": 1000,
+		"spName":"peach_8",
+        "giving": 0,
+        "desc": "金币x1000",
+        "givingDesc": "",
+        "type": 1
+      }
+    ]
+  },
+   {
+    "CardConfig": [
+      {
+        "id": 21,
+        "cost": 1,
+        "getNum": 100,
+		"spName":"peach_1",
+        "giving": 0,
+        "desc": "金币x100",
+        "givingDesc": "",
+        "type": 1
+      },
+      {
+        "id": 22,
+        "cost": 2,
+        "getNum": 200,
+		"spName":"peach_2",
+        "giving": 0,
+        "desc": "金币x200",
+        "givingDesc": "",
+        "type": 1
+      },
+      {
+        "id": 23,
+        "cost": 5,
+        "getNum": 500,
+		"spName":"peach_3",
+        "giving": 0,
+        "desc": "金币x500",
+        "givingDesc": "",
+        "type": 1
+      },
+      {
+        "id": 24,
+        "cost": 10,
+        "getNum": 1000,
+		"spName":"peach_4",
+        "giving": 0,
+        "desc": "金币x1000",
+        "givingDesc": "",
+        "type": 1
+      },
+      {
+        "id": 25,
+        "cost": 20,
+        "getNum": 2000,
+		"spName":"peach_5",
+        "giving": 0,
+        "desc": "金币x2000",
+        "givingDesc": "",
+        "type": 1
+      },
+      {
+        "id": 26,
+        "cost": 50,
+        "getNum": 5000,
+		"spName":"peach_6",
+        "giving": 0,
+        "desc": "金币x5000",
+        "givingDesc": "",
+        "type": 1
+      },
+      {
+        "id": 27,
+        "cost": 100,
+        "getNum": 10000,
+		"spName":"peach_7",
+        "giving": 0,
+        "desc": "金币x10000",
+        "givingDesc": "",
+        "type": 1
+      },
+      {
+        "id": 28,
+        "cost": 300,
+        "getNum": 30000,
+		"spName":"peach_8",
+        "giving": 0,
+        "desc": "金币x30000",
+        "givingDesc": "",
+        "type": 1
+      }
+    ]
+  }
+]

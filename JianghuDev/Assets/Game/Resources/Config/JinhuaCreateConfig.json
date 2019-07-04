@@ -1,0 +1,38 @@
+[
+  {
+    "conIndex": 1,
+    "id": 1,
+    "baseScore": 0.1,
+    "minScore": 10
+  },
+  {
+    "conIndex": 2,
+    "id": 2,
+    "baseScore": 0.5,
+    "minScore": 20
+  },
+  {
+    "conIndex": 3,
+    "id": 3,
+    "baseScore": 1,
+    "minScore": 30
+  },
+  {
+    "conIndex": 4,
+    "id": 3,
+    "baseScore": 3,
+    "minScore": 50
+  },
+  {
+    "conIndex": 5,
+    "id": 5,
+    "baseScore": 5,
+    "minScore": 80
+  },
+  {
+    "conIndex": 6,
+    "id": 6,
+    "baseScore": 10,
+    "minScore": 100
+  }
+]

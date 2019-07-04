@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "Title": "逐浪江湖",
+    "Content": "等你来战",
+    "downUrl": "http://www.zanyun1688.vip/user/index.php?agent={0}",
+    "iconUrl": "http://39.100.93.60/Client/Config/icon.png",
+    "type": "Invite"
+  },
+  {
+    "id": 2,
+    "Title": "逐浪江湖",
+    "Content": "你的朋友都在玩，公平公正",
+    "downUrl": "http://www.zanyun1688.vip/user/index.php?agent={0}",
+    "iconUrl": "http://39.100.93.60/Client/Config/icon.png",
+    "type": "ShareWeChat"
+  },
+  {
+    "id": 3,
+    "Title": "逐浪江湖",
+    "Content": "你的朋友都在玩，公平公正",
+    "downUrl": "http://www.zanyun1688.vip/user/index.php?agent={0}",
+    "iconUrl": "http://39.100.93.60/Client/Config/icon.png",
+    "type": "ShareWeChatMoments"
+  }
+]

@@ -1,0 +1,36 @@
+{"frames": {
+
+"tittle.png":
+{
+	"frame": {"x":1,"y":213,"w":117,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":117,"h":35},
+	"sourceSize": {"w":117,"h":35}
+},
+"wechat.png":
+{
+	"frame": {"x":1,"y":1,"w":214,"h":209},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":209},
+	"sourceSize": {"w":214,"h":209}
+},
+"wechatMoment.png":
+{
+	"frame": {"x":218,"y":1,"w":214,"h":209},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":209},
+	"sourceSize": {"w":214,"h":209}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ShareView.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d06fbdfac8be13cc56c3352de38d9c66:7e609ee3b80008e6c7a8e63f7187a6c3:986b2fc483e18e39167a0efa38531e96$"
+}
+}

@@ -1,0 +1,364 @@
+[
+  {
+    "gameId": 1,
+    "name": "麻将",
+    "config":[
+      {
+        "lvId":1,
+        "lvName":"新手场",
+        "baseScore":0.5,
+        "cost":0,
+        "minFore":15,
+        "minAfter":-1,
+        "minStr":"15  4翻封顶",
+        "icon": "Texture/GamePatternTexture/01",
+        "effectColor": "0d5106",
+		"tittle":"两人场"
+      },
+      {
+        "lvId":2,
+        "lvName":"初级场",
+        "baseScore":1,
+        "cost":0,
+        "minFore":30,
+        "minAfter":-1,
+        "minStr":"30  4翻封顶",
+        "icon": "Texture/GamePatternTexture/02",
+        "effectColor": "513106",
+        "tittle":"两人场"        
+      },
+      {
+        "lvId":3,
+        "lvName":"中级",
+        "baseScore":2,
+        "cost":0,
+        "minFore":60,
+        "minAfter":-1,
+        "minStr":"60  4翻封顶",
+        "icon": "Texture/GamePatternTexture/03",
+        "effectColor": "0D5107",
+        "tittle":"两人场"        
+      },
+      {
+        "lvId":4,
+        "lvName":"高级场",
+        "baseScore":5,
+        "cost":0,
+        "minFore":150,
+        "minAfter":-1,
+        "minStr":"150  4翻封顶",
+        "icon": "Texture/GamePatternTexture/04",
+        "effectColor": "0D5107",
+        "tittle":"两人场"        
+      },
+      {
+        "lvId": 5,
+        "lvName": "土豪场",
+        "baseScore": 10,
+        "cost": 0,
+        "minFore": 300,
+        "minAfter": -1,
+        "minStr": "300  4翻封顶",
+        "icon": "Texture/GamePatternTexture/05",
+        "effectColor": "0D5107",
+        "tittle":"两人场"
+      }, 
+	  {
+        "lvId":6,
+        "lvName":"新手场",
+        "baseScore":0.5,
+        "cost":0,
+        "minFore":15,
+        "minAfter":-1,
+        "minStr":"15  4翻封顶",
+        "icon": "Texture/GamePatternTexture/01",
+        "effectColor": "0d5106",
+		"tittle":"三人两房"
+      },
+      {
+        "lvId":7,
+        "lvName":"初级场",
+        "baseScore":1,
+        "cost":0,
+        "minFore":30,
+        "minAfter":-1,
+        "minStr":"30  4翻封顶",
+        "icon": "Texture/GamePatternTexture/02",
+        "effectColor": "513106",
+        "tittle":"三人两房"        
+      },
+      {
+        "lvId":8,
+        "lvName":"中级",
+        "baseScore":2,
+        "cost":0,
+        "minFore":60,
+        "minAfter":-1,
+        "minStr":"60  4翻封顶",
+        "icon": "Texture/GamePatternTexture/03",
+        "effectColor": "0D5107",
+        "tittle":"三人两房"        
+      },
+      {
+        "lvId":9,
+        "lvName":"高级场",
+        "baseScore":5,
+        "cost":0,
+        "minFore":150,
+        "minAfter":-1,
+        "minStr":"150  4翻封顶",
+        "icon": "Texture/GamePatternTexture/04",
+        "effectColor": "0D5107",
+        "tittle":"三人两房"        
+      },
+      {
+        "lvId": 10,
+        "lvName": "土豪场",
+        "baseScore": 10,
+        "cost": 0,
+        "minFore": 300,
+        "minAfter": -1,
+        "minStr": "300  4翻封顶",
+        "icon": "Texture/GamePatternTexture/05",
+        "effectColor": "0D5107",
+        "tittle":"三人两房"
+      }
+    ]
+  },
+  {
+    "gameId": 3,
+    "name": "牛牛",
+    "config":[
+      {
+        "lvId":1,
+        "lvName":"新手场",
+        "baseScore":0.2,
+        "cost":0,
+        "minFore":10,
+        "minAfter":-1,
+        "minStr":"10 抢4倍押4倍",
+        "icon": "Texture/GamePatternTexture/01",
+        "effectColor": "0d5106",
+		"tittle":"普通抢庄"
+      },
+      {
+        "lvId":2,
+        "lvName":"初级场",
+        "baseScore":0.5,
+        "cost":0,
+        "minFore":40,
+        "minAfter":-1,
+        "minStr":"40 抢4倍押4倍",
+        "icon": "Texture/GamePatternTexture/02",
+        "effectColor": "513106",
+		"tittle":"普通抢庄"
+      },
+      {
+        "lvId":3,
+        "lvName":"中级场",
+        "baseScore":1,
+        "cost":0,
+        "minFore":100,
+        "minAfter":-1,
+        "minStr":"100 抢4倍押4倍",
+        "icon": "Texture/GamePatternTexture/03",
+        "effectColor": "513106",
+		"tittle":"普通抢庄"
+      },    
+      {
+        "lvId":4,
+        "lvName":"新手场",
+        "baseScore":0.5,
+        "cost":0,
+        "minFore":10,
+        "minAfter":-1,
+        "minStr":"10 最高推注12倍",
+        "icon": "Texture/GamePatternTexture/01",
+        "effectColor": "0d5106",
+		"tittle":"疯狂大倍"
+      },
+      {
+        "lvId":5,
+        "lvName":"初级场",
+        "baseScore":1,
+        "cost":0,
+        "minFore":40,
+        "minAfter":-1,
+        "minStr":"40 最高推注12倍",
+        "icon": "Texture/GamePatternTexture/02",
+        "effectColor": "513106",
+		"tittle":"疯狂大倍"
+      },
+      {
+        "lvId":6,
+        "lvName":"中级场",
+        "baseScore":2,
+        "cost":0,
+        "minFore":100,
+        "minAfter":-1,
+        "minStr":"100 最高推注12倍",
+        "icon": "Texture/GamePatternTexture/03",
+        "effectColor": "513106",
+		"tittle":"疯狂大倍"
+      }
+     
+    ]
+  },
+  {
+    "gameId": 2,
+    "name": "金花",
+    "config": [
+      {
+        "lvId": 1,
+        "lvName": "新手场",
+        "baseScore": 0.1,
+        "cost": 0,
+        "minFore": 10,
+        "minAfter": -1,
+        "minStr": "5 最高闷5倍",
+        "icon": "lv1",
+        "effectColor": "0d5106",
+        "tittle": "普通模式"
+      },
+      {
+        "lvId": 2,
+        "lvName": "初级场",
+        "baseScore": 0.5,
+        "cost": 0,
+        "minFore": 20,
+        "minAfter": -1,
+        "minStr": "20 最高闷5倍",
+        "icon": "lv2",
+        "effectColor": "513106",
+        "tittle": "普通模式"
+      },
+      {
+        "lvId": 3,
+        "lvName": "中级场",
+        "baseScore": 1,
+        "cost": 0,
+        "minFore": 30,
+        "minAfter": -1,
+        "minStr": "40 最高闷5倍",
+        "icon": "lv3",
+        "effectColor": "513106",
+        "tittle": "普通模式"
+      },
+      {
+        "lvId": 4,
+        "lvName": "新手场",
+        "baseScore": 3,
+        "cost": 0,
+        "minFore": 50,
+        "minAfter": -1,
+        "minStr": "30 最高闷5倍",
+        "icon": "lv4",
+        "effectColor": "0d5106",
+        "tittle": "必闷三圈"
+      },
+      {
+        "lvId": 5,
+        "lvName": "初级场",
+        "baseScore": 5,
+        "cost": 0,
+        "minFore": 80,
+        "minAfter": -1,
+        "minStr": "60 最高闷5倍",
+        "icon": "lv5",
+        "effectColor": "513106",
+        "tittle": "必闷三圈"
+      },
+      {
+        "lvId": 6,
+        "lvName": "高级场",
+        "baseScore": 10,
+        "cost": 0,
+        "minFore": 100,
+        "minAfter": -1,
+        "minStr": "50 最高闷5倍",
+        "icon": "lv6",
+        "effectColor": "513106",
+        "tittle": "高级模式"
+      }
+    ]
+  },
+  {
+    "gameId": 4,
+    "name": "十点半",
+    "config":[
+      {
+        "lvId":1,
+        "lvName":"新手场",
+        "baseScore":0.2,
+        "cost":0,
+        "minFore":10,
+        "minAfter":-1,
+        "minStr":"10",
+        "icon": "Texture/GamePatternTexture/01",
+        "effectColor": "0d5106",
+		"tittle":""
+      },
+      {
+        "lvId":2,
+        "lvName":"初级场",
+        "baseScore":0.5,
+        "cost":0,
+        "minFore":40,
+        "minAfter":-1,
+        "minStr":"40",
+        "icon": "Texture/GamePatternTexture/02",
+        "effectColor": "513106",
+		"tittle":""
+      },
+      {
+        "lvId":3,
+        "lvName":"中级场",
+        "baseScore":1,
+        "cost":0,
+        "minFore":100,
+        "minAfter":-1,
+        "minStr":"100",
+        "icon": "Texture/GamePatternTexture/03",
+        "effectColor": "513106",
+		"tittle":""
+      },    
+      {
+        "lvId":4,
+        "lvName":"新手场",
+        "baseScore":0.5,
+        "cost":0,
+        "minFore":10,
+        "minAfter":-1,
+        "minStr":"10",
+        "icon": "Texture/GamePatternTexture/01",
+        "effectColor": "0d5106",
+		"tittle":""
+      },
+      {
+        "lvId":5,
+        "lvName":"初级场",
+        "baseScore":1,
+        "cost":0,
+        "minFore":40,
+        "minAfter":-1,
+        "minStr":"40",
+        "icon": "Texture/GamePatternTexture/02",
+        "effectColor": "513106",
+		"tittle":""
+      },
+      {
+        "lvId":6,
+        "lvName":"中级场",
+        "baseScore":2,
+        "cost":0,
+        "minFore":100,
+        "minAfter":-1,
+        "minStr":"100",
+        "icon": "Texture/GamePatternTexture/03",
+        "effectColor": "513106",
+		"tittle":""
+      }
+     
+    ]
+  }
+]

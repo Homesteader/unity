@@ -1,0 +1,23 @@
+[  
+  {
+    "gameId": 2,
+    "name": "金花",
+    "imgPath": "Texture/MainView/huansz_icon",
+    "isOpen": true,
+    "wh": [506,652]
+  },
+  {
+    "gameId": 3,
+    "name": "牛牛",
+    "imgPath": "Texture/MainView/niuzps_icon",
+    "isOpen": true,
+    "wh": [503,366]
+  }, 
+   {
+    "gameId": 4,
+    "name": "跑得快",
+    "imgPath": "Texture/MainView/paodk_icon",
+    "isOpen": true,
+    "wh": [503,366]
+  }
+]

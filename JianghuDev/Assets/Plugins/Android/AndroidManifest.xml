@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.dmxy.jhlj" android:theme="@android:style/Theme.Holo.Light.DarkActionBar" android:versionName="1.0.0" android:versionCode="1" android:installLocation="preferExternal">
+  <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true" />
+  <!-- IMSDK 所需权限 -->
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.GET_TASKS" />
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+  <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <!-- 读sd卡权限 -->
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+  <!-- 适配5.0 新加入权限 -->
+  <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+  <application android:icon="@drawable/app_icon" android:label="@string/app_name" android:networkSecurityConfig="@xml/network_security_config" android:isGame="true" android:banner="@drawable/app_banner">
+    <meta-data android:name="YvImSdkAppId" android:value="1003251" />
+    <activity android:name="com.sixqin.sixqinSDKManager.SixqinSDKManager" android:label="@string/app_name" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:launchMode="singleTask" android:screenOrientation="landscape">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="opevevqe" />
+      </intent-filter>
+    </activity>
+    <!-- 微支付SDK界面 -->
+    <!-- 显示网页界面 -->
+    <activity android:name="com.iapppay.sdk.main.WebActivity" android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <activity android:name="com.iapppay.ui.activity.PersonCenterActivity" android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <!-- 收银台-普通 -->
+    <activity android:name="com.iapppay.ui.activity.PayHubActivity" android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <!-- 选择充值金额界面 -->
+    <activity android:name="com.iapppay.ui.activity.SelectAmountActivity" android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection" android:launchMode="singleTask" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <activity android:name="com.iapppay.ui.activity.ChargeActivity" android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection" android:launchMode="singleTask" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <!-- 游戏卡和话费卡界面 -->
+    <activity android:name="com.iapppay.ui.card.GamepayActivity" android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection" android:launchMode="singleTask" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <!-- alipay sdk begin (新的支付宝) -->
+    <activity android:name="com.alipay.sdk.app.H5PayActivity" android:configChanges="orientation|keyboardHidden|navigation" android:exported="false" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize|stateHidden" />
+    <activity android:name="com.alipay.sdk.auth.AuthActivity" android:configChanges="orientation|keyboardHidden|navigation" android:exported="false" android:screenOrientation="behind" />
+    <!-- alipay sdk end -->
+    <activity android:label="@string/app_name" android:name="com.shengxi.DezhouAndroid.UnityPlayerNativeActivity" android:screenOrientation="sensorLandscape" android:launchMode="singleTask" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale">
+      <intent-filter>
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <category android:name="android.intent.category.LAUNCHER" />
+        <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+      </intent-filter>
+      <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+      <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="false" />
+    </activity>
+    <activity android:name="com.mob.tools.MobUIShell" android:configChanges="keyboardHidden|orientation|screenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="stateHidden|adjustResize">
+      <!--
+            	如果集成QQ分享，或者使用QQ客户端来进行QQ空间的分享，须要在此处添加一个对ACTION_VIEW
+            	事件的过滤器，其中的scheme是“tencent”前缀再开发者应用的加上appId。如果此过滤器不设置，
+            	则分享结束以后不能得到正确的回调
+            -->
+      <intent-filter android:priority="1000">
+        <data android:scheme="tencent100371282" />
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+      </intent-filter>
+      <!-- 新浪回调 -->
+      <intent-filter>
+        <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+    </activity>
+    <!-- 微信分享回调 -->
+    <activity android:name=".wxapi.WXEntryActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" />
+    <!-- 易信分享回调 -->
+    <activity android:name=".yxapi.YXEntryActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTop" />
+    <!-- 支付宝分享回调 -->
+    <activity android:name=".apshare.ShareEntryActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" />
+    <!-- im sdk 必须加入服务  -->
+    
+    <!-- 腾讯定位服务 -->
+    <meta-data android:name="TencentMapSDK" android:value="AWCBZ-3N6A6-DVPSZ-MZ3E7-WMDPS-JSF77" />
+    <!-- 支付 -->
+    <activity android:name="com.mtdl.dlpaysdk.activity.DLwebViewActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden">
+    </activity>
+    <activity android:name="com.mtdl.dlpaysdk.activity.NoViewActivity" android:theme="@android:style/Theme.Translucent" android:configChanges="orientation|keyboardHidden|screenSize" android:windowSoftInputMode="adjustUnspecified|stateHidden">
+    </activity>
+    <!-- 支付end -->
+  </application>
+  <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="20" />
+  <uses-feature android:glEsVersion="0x00020000" />
+  <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+  <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+  <uses-feature android:name="android.hardware.location" android:required="false" />
+  <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
+  <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false" />
+</manifest>

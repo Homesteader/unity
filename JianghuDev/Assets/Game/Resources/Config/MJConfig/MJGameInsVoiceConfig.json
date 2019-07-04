@@ -1,0 +1,29 @@
+[
+  {
+    "configIndex": 4,
+    "id": 1,
+    "name": "胡",
+    "voice": [ "", "ins_zimo", "ins_hu" ],
+    "subTypeVoice": [ ],
+    "thrTypeVoice": [ ],
+  },
+  {
+    "configIndex": 5,
+    "id": 5,
+    "name": "杠",
+    "voice": [ "ins_gang" ],
+    "subTypeVoice": [ "", "xiayu", "guafeng", "guafeng" ],
+  },
+  {
+    "configIndex": 6,
+    "id": 6,
+    "name": "碰",
+    "voice": [ "ins_peng" ]
+  },
+  {
+    "configIndex": 4,
+    "id": 5,
+    "name": "吃",
+    "voice": [ "ins_chi" ]
+  }
+]

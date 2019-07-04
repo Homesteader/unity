@@ -1,0 +1,33 @@
+[
+  {
+    "configIndex": 4,
+    "id": 4,
+    "name": "胡",
+    "effect": [ "", "M_0hu", "M_0hu" ],
+    "subTypeEffect": [ "", "M_0Gangshangkaihua", "M_0Gangshangkaihua", "M_0Gangshangliulei", "M_0hu", "M_0Qiangganghu" ],
+    "thrTypeEffect": [ "", "M_0tianhu", "M_0dihu", "M_0Haidilaoyue" ],
+  },
+  {
+    "configIndex": 5,
+    "id": 5,
+    "name": "杠",
+    "effect": [ "M_0gang" ],
+    "subTypeEffect": [ "", "M_0gang", "M_0gang", "M_0gang" ],
+  },
+  {
+    "configIndex": 6,
+    "id": 6,
+    "name": "碰",
+    "effect": [ "M_0peng" ]
+  },
+  {
+    "configIndex": 14,
+    "name": "一炮多响",
+    "effect": [ "M_0yipaoduoxiang" ]
+  },
+  {
+    "configIndex": 100,
+    "name": "流局",
+    "effect": [ "M_0Liuju" ]
+  }
+]
